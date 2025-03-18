@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Editor</title>
+    <link rel="stylesheet" href="html-editor.css">
+</head>
+<body>
+    <div id="toolbar">
+        <button id="bold-btn">Bold</button>
+        <button id="italic-btn">Italic</button>
+        <button id="underline-btn">Underline</button>
+        <button id="font-size-btn">Font Size</button>
+        <button id="font-color-btn">Font Color</button>
+        <button id="link-btn">Insert Link</button>
+        <button id="image-upload-btn">Upload Image</button>
+        <button id="save-btn">Save</button>
+    </div>
+    <div id="editor" contenteditable="true"></div>
+    <input type="file" id="image-upload-input" style="display: none;">
+    <div id="drag-drop-area">Drag and drop images here</div>
+    <script src="html-editor.js"></script>
+</body>
+</html>
